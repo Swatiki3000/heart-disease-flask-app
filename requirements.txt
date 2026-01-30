@@ -1,0 +1,11 @@
+flask
+numpy
+scikit-learn
+joblib
+pandas
+numpy
+scikit-learn
+flask
+joblib
+matplotlib
+seaborn
