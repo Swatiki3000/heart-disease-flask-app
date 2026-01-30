@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heart Disease Prediction</title>
+</head>
+<body>
+    <h2>Heart Disease Prediction System</h2>
+
+    <form method="POST" action="/predict">
+        <input name="features" placeholder="Enter 13 values comma separated" size="80">
+        <br><br>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if result %}
+        <h3>{{ result }}</h3>
+    {% endif %}
+</body>
+</html>
